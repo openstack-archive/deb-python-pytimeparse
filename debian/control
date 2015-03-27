@@ -1,0 +1,36 @@
+Source: python-pytimeparse
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Build-Depends-Indep: python-future, python-nose, python3-nose
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-pytimeparse.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-pytimeparse.git
+Homepage: https://github.com/wroberts/pytimeparse
+
+Package: python-pytimeparse
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: python-future, ${misc:Depends}, ${python:Depends}
+Description: time expression parser - Python 2.x
+ A small Python library to parse various kinds of time expressions, inspired by
+ this StackOverflow question: http://stackoverflow.com/questions/4628122
+ .
+ This package contains the Python 2.x module.
+
+Package: python3-pytimeparse
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: time expression parser - Python 3.x
+ A small Python library to parse various kinds of time expressions, inspired by
+ this StackOverflow question: http://stackoverflow.com/questions/4628122
+ .
+ This package contains the Python 3.x module.

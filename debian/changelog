@@ -1,0 +1,5 @@
+python-pytimeparse (1.1.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #782306)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 27 Mar 2015 15:48:55 +0100
