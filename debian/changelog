@@ -1,3 +1,9 @@
+python-pytimeparse (1.1.5-3) UNRELEASED; urgency=medium
+
+  * Bumped debhelper compat version to 10
+
+ -- Ondřej Nový <onovy@debian.org>  Thu, 24 Nov 2016 00:10:42 +0100
+
 python-pytimeparse (1.1.5-2) unstable; urgency=medium
 
   * Fixed VCS URLs (https).
